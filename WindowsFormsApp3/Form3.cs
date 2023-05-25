@@ -24,26 +24,29 @@ namespace WindowsFormsApp3
             DataSet ds = new DataSet();
             con.Open();
             da.Fill(ds, "oyuncu");
-            comboBox1.DataSource = ds.Tables["oyuncu"];
-            comboBox1.DisplayMember = "oyuncu_adi";
+            //comboBox1.DataSource = ds.Tables["oyuncu"];
+            //comboBox1.DisplayMember = "oyuncu_adi";
             comboBox2.DataSource = ds.Tables["oyuncu"];
             comboBox2.DisplayMember = "oyuncu_adi";
             con.Close();
 
-         /* con.Open();
-            chart2.Series.Clear();
-            foreach (DataRow row in ds.Tables["oyuncu"].Rows)
-            {
-                string oyuncuismi = row["oyuncu_adi"].ToString();
-                chart2.Series.Add(oyuncuismi);
-                chart2.Series[oyuncuismi].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Column;
-            }
-            con.Close(); */
+            /* con.Open();
+               chart2.Series.Clear();
+               foreach (DataRow row in ds.Tables["oyuncu"].Rows)
+               {
+                   string oyuncuismi = row["oyuncu_adi"].ToString();
+                   chart2.Series.Add(oyuncuismi);
+                   chart2.Series[oyuncuismi].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Column;
+               }
+               con.Close(); */
         }
 
         private void Form3_Load(object sender, EventArgs e)
         {
+ 
 
+            chart2.ChartAreas[0].AxisY.Minimum = 0;  
+            chart2.ChartAreas[0].AxisY.Maximum = 20;
         }
 
         private void chart2_Click(object sender, EventArgs e)
@@ -89,17 +92,33 @@ namespace WindowsFormsApp3
                 {
                     int gol = Convert.ToInt32(r["oyuncu_gol"]);
                     int mac = Convert.ToInt32(r["oyuncu_mac_sayi"]);
-                    int pas = Convert.ToInt32(r["oyuncu_pas"]);
-                    int müc = Convert.ToInt32(r["oyuncu_mucadele_kazanilan"]);
-                    int rating = Convert.ToInt32(r["oyuncu_rating"]);
+                    //int müc;
+                    /*if (!Convert.IsDBNull(r["oyuncu_mucadele_kazanilan"]))
+                    {
+                        müc = Convert.ToInt32(r["oyuncu_mucadele_kazanilan"]);
+                    }
+                    else
+                    {
+                        müc = 0;
+                    }*/
+                    int rating;
+                    if (!Convert.IsDBNull(r["oyuncu_mucadele_kazanilan"]))
+                    {
+                        rating = Convert.ToInt32(r["oyuncu_rating"]);
+                    }
+                    else
+                    {
+                        rating = 100;
+                    }
                     int asist = Convert.ToInt32(r["oyuncu_asist"]);
                     int sari = Convert.ToInt32(r["oyuncu_sari"]);
                     int kirmizi = Convert.ToInt32(r["oyuncu_kirmizi"]);
 
                     chart2.Series[selectedPlayer].Points.AddXY("Rating x100", rating/100);
+                    chart2.Series[selectedPlayer].Points.AddXY("Maç Sayısı", mac);
                     chart2.Series[selectedPlayer].Points.AddXY("Gol", gol);
                     chart2.Series[selectedPlayer].Points.AddXY("Asist", asist);
-                    chart2.Series[selectedPlayer].Points.AddXY("Pas", pas);
+                    //chart2.Series[selectedPlayer].Points.AddXY("Kazanılan Mücadele", müc);
                     chart2.Series[selectedPlayer].Points.AddXY("Sarı Kart", sari);
                     chart2.Series[selectedPlayer].Points.AddXY("Kırmızı Kart", kirmizi);
                 }
@@ -114,10 +133,10 @@ namespace WindowsFormsApp3
             SqlConnection con = new SqlConnection("Data Source=ETHN-BILGISAYAR\\SQLEXPRESS;Initial Catalog=futbol;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             //string secilioyuncu = comboBox1.Text;
             string secilioyuncu2 = comboBox2.Text;
-            if (!string.IsNullOrEmpty(secilioyuncu) && !string.IsNullOrEmpty(secilioyuncu2))
+            if (!string.IsNullOrEmpty(secilioyuncu2))
             { 
                 SqlCommand com = new SqlCommand("select * from oyuncu where oyuncu_adi in (@secilioyuncu, @secilioyuncu2)", con);
-                com.Parameters.AddWithValue("@secilioyuncu", secilioyuncu);
+                //com.Parameters.AddWithValue("@secilioyuncu", secilioyuncu);
                 com.Parameters.AddWithValue("@secilioyuncu2", secilioyuncu2);
 
                 con.Open();

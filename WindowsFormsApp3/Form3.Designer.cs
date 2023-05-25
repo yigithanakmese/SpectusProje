@@ -34,8 +34,8 @@
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label2 = new System.Windows.Forms.Label();
+            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +63,17 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(816, 48);
             this.panel3.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(13, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(383, 21);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "Karşılaştırmak istediğiniz oyuncuları sırayla seçiniz.";
             // 
             // chart2
             // 
@@ -124,17 +135,6 @@
             this.chart2.Size = new System.Drawing.Size(799, 405);
             this.chart2.TabIndex = 16;
             this.chart2.Text = "chart2";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(13, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(383, 21);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "Karşılaştırmak istediğiniz oyuncuları sırayla seçiniz.";
             // 
             // Form3
             // 
