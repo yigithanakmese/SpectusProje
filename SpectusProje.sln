@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpectusProje", "WindowsFormsApp3\SpectusProje.csproj", "{33BC72D1-A381-4914-A12E-0F4EFE2E2CFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33BC72D1-A381-4914-A12E-0F4EFE2E2CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BC72D1-A381-4914-A12E-0F4EFE2E2CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BC72D1-A381-4914-A12E-0F4EFE2E2CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BC72D1-A381-4914-A12E-0F4EFE2E2CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F66E16EA-2793-4E26-8B4E-74A536B3C763}
+	EndGlobalSection
+EndGlobal
