@@ -95,5 +95,10 @@ namespace WindowsFormsApp3
             
             form4.Show();
         }
+        profilform profilform = new profilform();
+        private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            profilform.Show();
+        }
     }
 }

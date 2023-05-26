@@ -170,5 +170,10 @@ namespace WindowsFormsApp3
             mg.CopyFromScreen(this.Location.X, this.Location.Y, 0, 0, this.Size);
             printPreviewDialog1.ShowDialog();
         }
+
+        private void textBox41_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

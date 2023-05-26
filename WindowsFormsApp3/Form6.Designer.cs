@@ -105,6 +105,18 @@
             this.button1 = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.textBox44 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -126,7 +138,7 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(77, 222);
+            this.textBox2.Location = new System.Drawing.Point(47, 175);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(47, 20);
@@ -138,7 +150,7 @@
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(77, 319);
+            this.textBox3.Location = new System.Drawing.Point(47, 272);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(153, 20);
@@ -150,7 +162,7 @@
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox4.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox4.Location = new System.Drawing.Point(77, 267);
+            this.textBox4.Location = new System.Drawing.Point(47, 220);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(153, 20);
@@ -161,7 +173,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(73, 199);
+            this.label1.Location = new System.Drawing.Point(43, 152);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 21);
             this.label1.TabIndex = 6;
@@ -172,7 +184,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(73, 245);
+            this.label2.Location = new System.Drawing.Point(43, 198);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 21);
             this.label2.TabIndex = 7;
@@ -183,7 +195,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(73, 295);
+            this.label3.Location = new System.Drawing.Point(43, 248);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 21);
             this.label3.TabIndex = 8;
@@ -381,7 +393,7 @@
             this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox13.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox13.Location = new System.Drawing.Point(77, 375);
+            this.textBox13.Location = new System.Drawing.Point(47, 328);
             this.textBox13.Name = "textBox13";
             this.textBox13.ReadOnly = true;
             this.textBox13.Size = new System.Drawing.Size(84, 20);
@@ -392,7 +404,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(73, 351);
+            this.label12.Location = new System.Drawing.Point(43, 304);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(120, 21);
             this.label12.TabIndex = 25;
@@ -956,7 +968,7 @@
             this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox37.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox37.Location = new System.Drawing.Point(767, 371);
+            this.textBox37.Location = new System.Drawing.Point(111, 353);
             this.textBox37.Name = "textBox37";
             this.textBox37.ReadOnly = true;
             this.textBox37.Size = new System.Drawing.Size(41, 20);
@@ -967,18 +979,18 @@
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(700, 369);
+            this.label36.Location = new System.Drawing.Point(44, 351);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(66, 21);
+            this.label36.Size = new System.Drawing.Size(41, 21);
             this.label36.TabIndex = 73;
-            this.label36.Text = "Rating:";
+            this.label36.Text = "Boy:";
             // 
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(710, 493);
+            this.button1.Location = new System.Drawing.Point(710, 524);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(158, 36);
             this.button1.TabIndex = 75;
@@ -1002,12 +1014,164 @@
             this.printPreviewDialog1.Text = "Baskı önizleme";
             this.printPreviewDialog1.Visible = false;
             // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(44, 389);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(39, 21);
+            this.label37.TabIndex = 76;
+            this.label37.Text = "Kilo:";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label38.ForeColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(700, 374);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(49, 21);
+            this.label38.TabIndex = 77;
+            this.label38.Text = "Koşu:";
+            // 
+            // textBox38
+            // 
+            this.textBox38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.textBox38.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox38.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox38.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox38.Location = new System.Drawing.Point(772, 375);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.ReadOnly = true;
+            this.textBox38.Size = new System.Drawing.Size(41, 20);
+            this.textBox38.TabIndex = 78;
+            // 
+            // textBox39
+            // 
+            this.textBox39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.textBox39.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox39.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox39.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox39.Location = new System.Drawing.Point(116, 392);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.ReadOnly = true;
+            this.textBox39.Size = new System.Drawing.Size(41, 20);
+            this.textBox39.TabIndex = 79;
+            // 
+            // textBox40
+            // 
+            this.textBox40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox40.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox40.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox40.Location = new System.Drawing.Point(772, 436);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.ReadOnly = true;
+            this.textBox40.Size = new System.Drawing.Size(41, 20);
+            this.textBox40.TabIndex = 80;
+            // 
+            // textBox41
+            // 
+            this.textBox41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.textBox41.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox41.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox41.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox41.Location = new System.Drawing.Point(755, 375);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.ReadOnly = true;
+            this.textBox41.Size = new System.Drawing.Size(41, 20);
+            this.textBox41.TabIndex = 81;
+            this.textBox41.TextChanged += new System.EventHandler(this.textBox41_TextChanged);
+            // 
+            // textBox42
+            // 
+            this.textBox42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox42.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox42.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox42.Location = new System.Drawing.Point(111, 427);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.ReadOnly = true;
+            this.textBox42.Size = new System.Drawing.Size(41, 20);
+            this.textBox42.TabIndex = 83;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label39.ForeColor = System.Drawing.Color.White;
+            this.label39.Location = new System.Drawing.Point(44, 425);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(54, 21);
+            this.label39.TabIndex = 82;
+            this.label39.Text = "Ayak:";
+            // 
+            // textBox43
+            // 
+            this.textBox43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox43.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox43.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox43.Location = new System.Drawing.Point(111, 464);
+            this.textBox43.Name = "textBox43";
+            this.textBox43.ReadOnly = true;
+            this.textBox43.Size = new System.Drawing.Size(41, 20);
+            this.textBox43.TabIndex = 85;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label40.ForeColor = System.Drawing.Color.White;
+            this.label40.Location = new System.Drawing.Point(44, 462);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(46, 21);
+            this.label40.TabIndex = 84;
+            this.label40.Text = "Ülke:";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label41.ForeColor = System.Drawing.Color.White;
+            this.label41.Location = new System.Drawing.Point(700, 404);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(66, 21);
+            this.label41.TabIndex = 87;
+            this.label41.Text = "Rating:";
+            // 
+            // textBox44
+            // 
+            this.textBox44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox44.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox44.ForeColor = System.Drawing.Color.White;
+            this.textBox44.Location = new System.Drawing.Point(766, 405);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.ReadOnly = true;
+            this.textBox44.Size = new System.Drawing.Size(47, 20);
+            this.textBox44.TabIndex = 86;
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
             this.ClientSize = new System.Drawing.Size(918, 572);
+            this.Controls.Add(this.label41);
+            this.Controls.Add(this.textBox44);
+            this.Controls.Add(this.textBox43);
+            this.Controls.Add(this.label40);
+            this.Controls.Add(this.textBox42);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.textBox41);
+            this.Controls.Add(this.textBox40);
+            this.Controls.Add(this.textBox39);
+            this.Controls.Add(this.textBox38);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label37);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox37);
             this.Controls.Add(this.label36);
@@ -1169,5 +1333,17 @@
         private System.Windows.Forms.Button button1;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label38;
+        public System.Windows.Forms.TextBox textBox38;
+        public System.Windows.Forms.TextBox textBox39;
+        public System.Windows.Forms.TextBox textBox40;
+        public System.Windows.Forms.TextBox textBox41;
+        public System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.Label label39;
+        public System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label41;
+        public System.Windows.Forms.TextBox textBox44;
     }
 }
