@@ -18,15 +18,6 @@ namespace WindowsFormsApp3
         public profilform()
         {
             InitializeComponent();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void profilform_Load(object sender, EventArgs e)
-        {
             SqlConnection con = new SqlConnection("Data Source=ETHN-BILGISAYAR\\SQLEXPRESS;Initial Catalog=futbol;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             SqlCommand cmd = new SqlCommand($"select k.kullanici_id, k.kullanici_adi, k.sifre, k.kullanici_pp, g.giris_tipi, k.adi, k.soyadi," +
                 $" k.email, t.takim_ad, k.tel_no, k.kulup_gorev from kullanici k left join giris_tipi g on k.giris_tipi_id = g.giris_tipi_id" +
@@ -80,11 +71,21 @@ namespace WindowsFormsApp3
                 label2.Text = giristipi;
                 label16.Text = tel;
                 label15.Text = gorev;
-               
+
 
             }
             dr.Close();
             con.Close();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void profilform_Load(object sender, EventArgs e)
+        {
+           
         }
     }
 }

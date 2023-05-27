@@ -232,6 +232,12 @@
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
     <Compile Include="kullanici_session.cs" />
+    <Compile Include="notlatform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notlatform.Designer.cs">
+      <DependentUpon>notlatform.cs</DependentUpon>
+    </Compile>
     <Compile Include="profilform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -263,6 +269,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notlatform.resx">
+      <DependentUpon>notlatform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="profilform.resx">
       <DependentUpon>profilform.cs</DependentUpon>

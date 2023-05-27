@@ -11,8 +11,11 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp3
 {
+
     public partial class Form1 : Form
     {
+        int k_id = k_session.Instance.k_id;
+
         public Form1()
         {
             InitializeComponent();
@@ -37,10 +40,25 @@ namespace WindowsFormsApp3
             dataGridView3.DataSource= ds.Tables[0];
             con.Close();
         }
-
+        private profilform profilform;
+        
         private void label1_Click(object sender, EventArgs e)
         {
+            if (profilform == null || profilform.IsDisposed)
+            {
+                profilform = new profilform();
+                profilform.FormClosed += profilformkapanis;
+                profilform.Show();
+            }
+            else
+            {
+                profilform.Focus();
+            }
+        }
 
+        private void profilformkapanis(object sender, FormClosedEventArgs e)
+        {
+            profilform = null;
         }
         private Form activeForm = null;
         private void openminiform(Form miniform)
@@ -85,7 +103,19 @@ namespace WindowsFormsApp3
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            SqlConnection con = new SqlConnection("Data Source=ETHN-BILGISAYAR\\SQLEXPRESS;Initial Catalog=futbol;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlCommand cmd = new SqlCommand($"select k.adi, k.soyadi from kullanici k where kullanici_id = @k_id", con);
+            cmd.Parameters.AddWithValue("@k_id", k_id);
+            con.Open();
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            { 
+            string ad = dr["adi"].ToString();
+            string soyad = dr["soyadi"].ToString();
+            label1.Text = ad + " " + soyad;
+            }
+            dr.Close();
+            con.Close();
         }
         
         Form4 form4 = new Form4();
@@ -95,10 +125,10 @@ namespace WindowsFormsApp3
             
             form4.Show();
         }
-        profilform profilform = new profilform();
-        private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
+
+        private void button5_Click(object sender, EventArgs e)
         {
-            profilform.Show();
+
         }
     }
 }
