@@ -78,17 +78,18 @@ namespace WindowsFormsApp3
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-          
-                openminiform(new Form2());
-            
+        {          
+           openminiform(new Form2());            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             openminiform(new Form3());
         }
-
+        private void button6_Click(object sender, EventArgs e)
+        {
+            openminiform(new yonetimform());
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             if (activeForm != null)
@@ -134,5 +135,7 @@ namespace WindowsFormsApp3
         {
             openminiform(new notlatform());
         }
+
+        
     }
 }

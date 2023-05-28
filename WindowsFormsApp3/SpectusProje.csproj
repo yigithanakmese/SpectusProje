@@ -253,6 +253,12 @@
     <Compile Include="registerform.Designer.cs">
       <DependentUpon>registerform.cs</DependentUpon>
     </Compile>
+    <Compile Include="yonetimform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yonetimform.Designer.cs">
+      <DependentUpon>yonetimform.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -289,6 +295,9 @@
     </Compile>
     <EmbeddedResource Include="registerform.resx">
       <DependentUpon>registerform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yonetimform.resx">
+      <DependentUpon>yonetimform.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
