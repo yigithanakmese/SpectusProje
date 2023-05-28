@@ -32,9 +32,30 @@ namespace WindowsFormsApp3
             comboBox2.DisplayMember = "oyuncu_adi";
             comboBox2.DataSource = dt;
             con.Close();
-
             
-           
+            SqlCommand cmd2 = new SqlCommand("select ulke_id, ulke_ad from ulke", con);
+            SqlDataAdapter da2 = new SqlDataAdapter(cmd2);
+            DataTable dt2 = new DataTable();
+            con.Open();
+            da2.Fill(dt2);
+            comboBox1.ValueMember = "ulke_id";
+            comboBox1.DisplayMember = "ulke_ad";
+            comboBox1.DataSource = dt2;
+            con.Close();
+
+            SqlCommand cmd3 = new SqlCommand("select ayak_id, ayak from ayak", con);
+            SqlDataAdapter da3 = new SqlDataAdapter(cmd3);
+            DataTable dt3 = new DataTable();
+            con.Open();
+            da3.Fill(dt3);
+            comboBox3.ValueMember = "ayak_id";
+            comboBox3.DisplayMember = "ayak";
+            comboBox3.DataSource = dt3;
+            con.Close();
+
+
+
+
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -79,6 +100,7 @@ namespace WindowsFormsApp3
             SqlDataReader r = cmd3.ExecuteReader();
             while (r.Read())
             {
+                
                 yastext.Text = r["oyuncu_yas"].ToString();
                 dogumgunutext.Text = r["oyuncu_dogumgunu"].ToString();
                 yastext.Text = r["oyuncu_yas"].ToString();
@@ -102,7 +124,7 @@ namespace WindowsFormsApp3
                 uzeklastırmatext.Text = r["oyuncu_uzaklastirma"].ToString();
                 topkaybıtext.Text = r["oyuncu_top_kaybi"].ToString();
                 kurtaristext.Text = r["oyuncu_kurtaris"].ToString();
-                cezasahakurtaristext.Text = r["oyuncu_cezasahası_kurtaris"].ToString();
+                cezasahakurtaristext.Text = r["oyuncu_cezasahasi_kurtaris"].ToString();
                 yenengoltext.Text = r["oyuncu_yenen_gol"].ToString();
                 ikilimuctext.Text = r["oyuncu_mucadele"].ToString();
                 kazanmuctext.Text = r["oyuncu_mucadele_kazanilan"].ToString();
@@ -119,6 +141,44 @@ namespace WindowsFormsApp3
                 ratingtext.Text = r["oyuncu_rating"].ToString();
             }
             con.Close();
+            SqlCommand cmd8 = new SqlCommand("select ulke_ad, ayak from oyuncu o left join ayak a on a.ayak_id=o.ayak_id left join ulke u on u.ulke_id=o.ulke_id where oyuncu_id = @oyuncu_id", con);
+            cmd8.Parameters.AddWithValue("@oyuncu_id", comboBox2.SelectedValue);
+            con.Open();
+
+            SqlDataReader r8 = cmd8.ExecuteReader();
+            
+                if (r8.Read())
+                {
+                    if (!Convert.IsDBNull(r8["ulke_ad"]))
+                    {
+                        comboBox3.Text = r8["ayak"].ToString();
+
+                        comboBox1.Text = r8["ulke_ad"].ToString();
+                    }
+                }
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection("Data Source=ETHN-BILGISAYAR\\SQLEXPRESS;Initial Catalog=futbol;" +
+                "Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;" +
+                "MultiSubnetFailover=False");
+            SqlCommand com = new SqlCommand("update oyuncu set oyuncu_boy = @boy , oyuncu_kilo = @kilo , ulke_id = @ulkeid , ayak_id = @ayakid where oyuncu_id = @oyuncuid", con);
+            con.Open();
+           string boy = boytext.Text;
+           string kilo = kilotext.Text;
+
+            com.Parameters.AddWithValue("@boy", boy);
+            com.Parameters.AddWithValue("@kilo", kilo);
+            com.Parameters.AddWithValue("@ayakid", comboBox3.SelectedValue.ToString());
+            com.Parameters.AddWithValue("@ulkeid", comboBox1.SelectedValue.ToString());
+            com.Parameters.AddWithValue("@oyuncuid", comboBox2.SelectedValue.ToString());
+
+
+            com.ExecuteNonQuery();
+            con.Close();
+            label41.Text = "Başarı ile güncellendi..";
         }
     }
 }

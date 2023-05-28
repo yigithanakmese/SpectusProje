@@ -15,7 +15,7 @@ namespace WindowsFormsApp3
     public partial class Form1 : Form
     {
         int k_id = k_session.Instance.k_id;
-
+        int g_id = k_session.Instance.g_id;
         public Form1()
         {
             InitializeComponent();
@@ -39,6 +39,11 @@ namespace WindowsFormsApp3
             da3.Fill(ds);
             dataGridView3.DataSource= ds.Tables[0];
             con.Close();
+            if(g_id != 3)
+            {
+                button6.Enabled = false;
+                button6.Visible = false;   
+            }
         }
         private profilform profilform;
         

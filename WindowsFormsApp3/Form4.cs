@@ -48,7 +48,8 @@ namespace WindowsFormsApp3
             if (dr.Read())
             {
                 k_session.Instance.k_id = dr.GetInt32(dr.GetOrdinal("kullanici_id"));
-                k_session.Instance.t_id = dr.GetInt32(dr.GetOrdinal("takim_id"));
+                //k_session.Instance.t_id = dr.GetInt32(dr.GetOrdinal("takim_id"));
+                k_session.Instance.g_id = dr.GetInt32(dr.GetOrdinal("giris_tipi_id"));
                 Form1 Form1 = new Form1();
                 Form1.Show();
                 this.Hide();

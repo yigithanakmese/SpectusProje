@@ -30,7 +30,6 @@
         {
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.ratingtext = new System.Windows.Forms.Label();
             this.textBox44 = new System.Windows.Forms.TextBox();
@@ -112,6 +111,8 @@
             this.yastext = new System.Windows.Forms.TextBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label41 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // comboBox3
@@ -139,18 +140,6 @@
             this.comboBox1.Size = new System.Drawing.Size(137, 28);
             this.comboBox1.TabIndex = 258;
             this.comboBox1.Text = "Ülke...";
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(38, 512);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(158, 36);
-            this.button1.TabIndex = 257;
-            this.button1.Text = "Güncelle";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // comboBox2
             // 
@@ -231,8 +220,7 @@
             this.kilotext.ForeColor = System.Drawing.SystemColors.Window;
             this.kilotext.Location = new System.Drawing.Point(136, 331);
             this.kilotext.Name = "kilotext";
-            this.kilotext.ReadOnly = true;
-            this.kilotext.Size = new System.Drawing.Size(41, 27);
+            this.kilotext.Size = new System.Drawing.Size(74, 27);
             this.kilotext.TabIndex = 250;
             // 
             // label38
@@ -265,9 +253,9 @@
             this.boytext.ForeColor = System.Drawing.SystemColors.Window;
             this.boytext.Location = new System.Drawing.Point(136, 293);
             this.boytext.Name = "boytext";
-            this.boytext.ReadOnly = true;
-            this.boytext.Size = new System.Drawing.Size(41, 27);
+            this.boytext.Size = new System.Drawing.Size(74, 27);
             this.boytext.TabIndex = 247;
+            this.boytext.Text = "Örn:1.80";
             // 
             // label36
             // 
@@ -1087,17 +1075,42 @@
             this.comboBox5.Size = new System.Drawing.Size(137, 28);
             this.comboBox5.TabIndex = 260;
             // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(73, 517);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(161, 34);
+            this.button2.TabIndex = 262;
+            this.button2.Text = "Kişisel veri güncelle";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.label41.ForeColor = System.Drawing.Color.White;
+            this.label41.Location = new System.Drawing.Point(254, 522);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(13, 19);
+            this.label41.TabIndex = 263;
+            this.label41.Text = " ";
+            // 
             // yonetimform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
             this.ClientSize = new System.Drawing.Size(918, 572);
+            this.Controls.Add(this.label41);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.ratingtext);
             this.Controls.Add(this.textBox44);
@@ -1188,7 +1201,6 @@
 
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label ratingtext;
         public System.Windows.Forms.TextBox textBox44;
@@ -1270,5 +1282,7 @@
         public System.Windows.Forms.TextBox yastext;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label41;
     }
 }

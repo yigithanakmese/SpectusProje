@@ -49,6 +49,10 @@ namespace WindowsFormsApp3
                     {
                         label17.Text = "Kulüp yetkilisi Değilsiniz";
                     }
+                    else
+                    {
+                        label17.Text = takimadi;
+                    }
 
                 }
                 else
