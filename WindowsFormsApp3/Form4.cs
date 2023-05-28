@@ -51,7 +51,6 @@ namespace WindowsFormsApp3
                 Form1 Form1 = new Form1();
                 Form1.Show();
                 this.Hide();
-                MessageBox.Show("Hoşgeldin "+ textBox1.Text +".");
             }
             else
             {

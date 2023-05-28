@@ -232,6 +232,7 @@
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
     <Compile Include="kullanici_session.cs" />
+    <Compile Include="notlarkaydetme.cs" />
     <Compile Include="notlatform.cs">
       <SubType>Form</SubType>
     </Compile>

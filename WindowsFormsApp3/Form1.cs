@@ -63,21 +63,25 @@ namespace WindowsFormsApp3
         private Form activeForm = null;
         private void openminiform(Form miniform)
         {
-            if (activeForm != null)
-                activeForm.Close();
-            activeForm = miniform;
-            miniform.TopLevel = false;
-            miniform.FormBorderStyle = FormBorderStyle.None;
-            miniform.Dock = DockStyle.Fill;
-            panel3ana.Controls.Add(miniform);
-            panel3ana.Tag = miniform;
-            miniform.BringToFront();
-            miniform.Show();       
+           
+                if (activeForm != null)
+                    activeForm.Close();
+                activeForm = miniform;
+                miniform.TopLevel = false;
+                miniform.FormBorderStyle = FormBorderStyle.None;
+                miniform.Dock = DockStyle.Fill;
+                panel3ana.Controls.Add(miniform);
+                panel3ana.Tag = miniform;
+                miniform.BringToFront();
+                miniform.Show();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            openminiform(new Form2());
+          
+                openminiform(new Form2());
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -128,7 +132,7 @@ namespace WindowsFormsApp3
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            openminiform(new notlatform());
         }
     }
 }
