@@ -117,7 +117,7 @@
             // 
             // comboBox3
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboBox3.ForeColor = System.Drawing.Color.White;
@@ -130,7 +130,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboBox1.ForeColor = System.Drawing.Color.White;
@@ -143,7 +143,7 @@
             // 
             // comboBox2
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboBox2.ForeColor = System.Drawing.Color.White;
@@ -160,7 +160,7 @@
             this.ratingtext.AutoSize = true;
             this.ratingtext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ratingtext.ForeColor = System.Drawing.Color.White;
-            this.ratingtext.Location = new System.Drawing.Point(691, 398);
+            this.ratingtext.Location = new System.Drawing.Point(699, 394);
             this.ratingtext.Name = "ratingtext";
             this.ratingtext.Size = new System.Drawing.Size(66, 21);
             this.ratingtext.TabIndex = 255;
@@ -168,11 +168,11 @@
             // 
             // textBox44
             // 
-            this.textBox44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.textBox44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox44.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox44.ForeColor = System.Drawing.Color.White;
-            this.textBox44.Location = new System.Drawing.Point(757, 399);
+            this.textBox44.Location = new System.Drawing.Point(829, 394);
             this.textBox44.Name = "textBox44";
             this.textBox44.ReadOnly = true;
             this.textBox44.Size = new System.Drawing.Size(47, 27);
@@ -202,11 +202,11 @@
             // 
             // kosutext
             // 
-            this.kosutext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.kosutext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.kosutext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kosutext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kosutext.ForeColor = System.Drawing.SystemColors.Window;
-            this.kosutext.Location = new System.Drawing.Point(746, 369);
+            this.kosutext.Location = new System.Drawing.Point(835, 363);
             this.kosutext.Name = "kosutext";
             this.kosutext.ReadOnly = true;
             this.kosutext.Size = new System.Drawing.Size(41, 27);
@@ -214,7 +214,7 @@
             // 
             // kilotext
             // 
-            this.kilotext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.kilotext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.kilotext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kilotext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kilotext.ForeColor = System.Drawing.SystemColors.Window;
@@ -228,7 +228,7 @@
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(691, 368);
+            this.label38.Location = new System.Drawing.Point(696, 365);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(49, 21);
             this.label38.TabIndex = 249;
@@ -247,7 +247,7 @@
             // 
             // boytext
             // 
-            this.boytext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.boytext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.boytext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.boytext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.boytext.ForeColor = System.Drawing.SystemColors.Window;
@@ -270,11 +270,11 @@
             // 
             // kilitpastext
             // 
-            this.kilitpastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.kilitpastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.kilitpastext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kilitpastext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kilitpastext.ForeColor = System.Drawing.SystemColors.Window;
-            this.kilitpastext.Location = new System.Drawing.Point(763, 330);
+            this.kilitpastext.Location = new System.Drawing.Point(835, 323);
             this.kilitpastext.Name = "kilitpastext";
             this.kilitpastext.ReadOnly = true;
             this.kilitpastext.Size = new System.Drawing.Size(41, 27);
@@ -285,7 +285,7 @@
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(691, 330);
+            this.label35.Location = new System.Drawing.Point(696, 330);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(69, 21);
             this.label35.TabIndex = 244;
@@ -293,11 +293,11 @@
             // 
             // isabetlipastext
             // 
-            this.isabetlipastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.isabetlipastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.isabetlipastext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.isabetlipastext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.isabetlipastext.ForeColor = System.Drawing.SystemColors.Window;
-            this.isabetlipastext.Location = new System.Drawing.Point(797, 295);
+            this.isabetlipastext.Location = new System.Drawing.Point(835, 288);
             this.isabetlipastext.Name = "isabetlipastext";
             this.isabetlipastext.ReadOnly = true;
             this.isabetlipastext.Size = new System.Drawing.Size(41, 27);
@@ -308,7 +308,7 @@
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(691, 294);
+            this.label34.Location = new System.Drawing.Point(696, 291);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(100, 21);
             this.label34.TabIndex = 242;
@@ -316,11 +316,11 @@
             // 
             // pastext
             // 
-            this.pastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.pastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.pastext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pastext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.pastext.ForeColor = System.Drawing.SystemColors.Window;
-            this.pastext.Location = new System.Drawing.Point(737, 260);
+            this.pastext.Location = new System.Drawing.Point(835, 256);
             this.pastext.Name = "pastext";
             this.pastext.ReadOnly = true;
             this.pastext.Size = new System.Drawing.Size(41, 27);
@@ -331,7 +331,7 @@
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(691, 260);
+            this.label33.Location = new System.Drawing.Point(695, 262);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(40, 21);
             this.label33.TabIndex = 240;
@@ -339,11 +339,11 @@
             // 
             // kacanpenaltıtext
             // 
-            this.kacanpenaltıtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.kacanpenaltıtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.kacanpenaltıtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kacanpenaltıtext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kacanpenaltıtext.ForeColor = System.Drawing.SystemColors.Window;
-            this.kacanpenaltıtext.Location = new System.Drawing.Point(818, 229);
+            this.kacanpenaltıtext.Location = new System.Drawing.Point(835, 226);
             this.kacanpenaltıtext.Name = "kacanpenaltıtext";
             this.kacanpenaltıtext.ReadOnly = true;
             this.kacanpenaltıtext.Size = new System.Drawing.Size(41, 27);
@@ -354,7 +354,7 @@
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(691, 228);
+            this.label32.Location = new System.Drawing.Point(696, 228);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(122, 21);
             this.label32.TabIndex = 238;
@@ -362,11 +362,11 @@
             // 
             // penaltigolutext
             // 
-            this.penaltigolutext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.penaltigolutext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.penaltigolutext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.penaltigolutext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.penaltigolutext.ForeColor = System.Drawing.SystemColors.Window;
-            this.penaltigolutext.Location = new System.Drawing.Point(805, 199);
+            this.penaltigolutext.Location = new System.Drawing.Point(835, 195);
             this.penaltigolutext.Name = "penaltigolutext";
             this.penaltigolutext.ReadOnly = true;
             this.penaltigolutext.Size = new System.Drawing.Size(41, 27);
@@ -377,7 +377,7 @@
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(691, 198);
+            this.label31.Location = new System.Drawing.Point(696, 197);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(108, 21);
             this.label31.TabIndex = 236;
@@ -385,22 +385,23 @@
             // 
             // alinanpenaltitext
             // 
-            this.alinanpenaltitext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.alinanpenaltitext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.alinanpenaltitext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.alinanpenaltitext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.alinanpenaltitext.ForeColor = System.Drawing.SystemColors.Window;
-            this.alinanpenaltitext.Location = new System.Drawing.Point(818, 170);
+            this.alinanpenaltitext.Location = new System.Drawing.Point(835, 162);
             this.alinanpenaltitext.Name = "alinanpenaltitext";
             this.alinanpenaltitext.ReadOnly = true;
             this.alinanpenaltitext.Size = new System.Drawing.Size(41, 27);
             this.alinanpenaltitext.TabIndex = 235;
+            this.alinanpenaltitext.TextChanged += new System.EventHandler(this.alinanpenaltitext_TextChanged);
             // 
             // label30
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(691, 169);
+            this.label30.Location = new System.Drawing.Point(695, 168);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(121, 21);
             this.label30.TabIndex = 234;
@@ -408,11 +409,11 @@
             // 
             // yappenaltitext
             // 
-            this.yappenaltitext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.yappenaltitext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.yappenaltitext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.yappenaltitext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.yappenaltitext.ForeColor = System.Drawing.SystemColors.Window;
-            this.yappenaltitext.Location = new System.Drawing.Point(585, 429);
+            this.yappenaltitext.Location = new System.Drawing.Point(629, 453);
             this.yappenaltitext.Name = "yappenaltitext";
             this.yappenaltitext.ReadOnly = true;
             this.yappenaltitext.Size = new System.Drawing.Size(41, 27);
@@ -423,7 +424,7 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(448, 428);
+            this.label29.Location = new System.Drawing.Point(448, 460);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(131, 21);
             this.label29.TabIndex = 232;
@@ -431,11 +432,11 @@
             // 
             // basdribblingtext
             // 
-            this.basdribblingtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.basdribblingtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.basdribblingtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.basdribblingtext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.basdribblingtext.ForeColor = System.Drawing.SystemColors.Window;
-            this.basdribblingtext.Location = new System.Drawing.Point(835, 138);
+            this.basdribblingtext.Location = new System.Drawing.Point(835, 133);
             this.basdribblingtext.Name = "basdribblingtext";
             this.basdribblingtext.ReadOnly = true;
             this.basdribblingtext.Size = new System.Drawing.Size(41, 27);
@@ -446,7 +447,7 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(691, 138);
+            this.label28.Location = new System.Drawing.Point(695, 138);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(138, 21);
             this.label28.TabIndex = 230;
@@ -454,11 +455,11 @@
             // 
             // dribblingtext
             // 
-            this.dribblingtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.dribblingtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.dribblingtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.dribblingtext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dribblingtext.ForeColor = System.Drawing.SystemColors.Window;
-            this.dribblingtext.Location = new System.Drawing.Point(780, 108);
+            this.dribblingtext.Location = new System.Drawing.Point(835, 102);
             this.dribblingtext.Name = "dribblingtext";
             this.dribblingtext.ReadOnly = true;
             this.dribblingtext.Size = new System.Drawing.Size(41, 27);
@@ -467,9 +468,10 @@
             // label27
             // 
             this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(67)))));
             this.label27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(691, 107);
+            this.label27.Location = new System.Drawing.Point(695, 104);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(83, 21);
             this.label27.TabIndex = 228;
@@ -477,11 +479,11 @@
             // 
             // kazanmuctext
             // 
-            this.kazanmuctext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.kazanmuctext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.kazanmuctext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kazanmuctext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kazanmuctext.ForeColor = System.Drawing.SystemColors.Window;
-            this.kazanmuctext.Location = new System.Drawing.Point(627, 395);
+            this.kazanmuctext.Location = new System.Drawing.Point(629, 420);
             this.kazanmuctext.Name = "kazanmuctext";
             this.kazanmuctext.ReadOnly = true;
             this.kazanmuctext.Size = new System.Drawing.Size(41, 27);
@@ -492,7 +494,7 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(448, 394);
+            this.label26.Location = new System.Drawing.Point(448, 426);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(173, 21);
             this.label26.TabIndex = 226;
@@ -500,11 +502,11 @@
             // 
             // ikilimuctext
             // 
-            this.ikilimuctext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.ikilimuctext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.ikilimuctext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ikilimuctext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ikilimuctext.ForeColor = System.Drawing.SystemColors.Window;
-            this.ikilimuctext.Location = new System.Drawing.Point(564, 364);
+            this.ikilimuctext.Location = new System.Drawing.Point(629, 390);
             this.ikilimuctext.Name = "ikilimuctext";
             this.ikilimuctext.ReadOnly = true;
             this.ikilimuctext.Size = new System.Drawing.Size(41, 27);
@@ -515,7 +517,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(448, 364);
+            this.label25.Location = new System.Drawing.Point(450, 394);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(120, 21);
             this.label25.TabIndex = 224;
@@ -523,11 +525,11 @@
             // 
             // cezasahakurtaristext
             // 
-            this.cezasahakurtaristext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.cezasahakurtaristext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.cezasahakurtaristext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.cezasahakurtaristext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cezasahakurtaristext.ForeColor = System.Drawing.SystemColors.Window;
-            this.cezasahakurtaristext.Location = new System.Drawing.Point(630, 305);
+            this.cezasahakurtaristext.Location = new System.Drawing.Point(629, 328);
             this.cezasahakurtaristext.Name = "cezasahakurtaristext";
             this.cezasahakurtaristext.ReadOnly = true;
             this.cezasahakurtaristext.Size = new System.Drawing.Size(41, 27);
@@ -538,7 +540,7 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(448, 304);
+            this.label24.Location = new System.Drawing.Point(448, 330);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(176, 21);
             this.label24.TabIndex = 222;
@@ -546,11 +548,11 @@
             // 
             // kurtaristext
             // 
-            this.kurtaristext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.kurtaristext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.kurtaristext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kurtaristext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kurtaristext.ForeColor = System.Drawing.SystemColors.Window;
-            this.kurtaristext.Location = new System.Drawing.Point(524, 278);
+            this.kurtaristext.Location = new System.Drawing.Point(629, 292);
             this.kurtaristext.Name = "kurtaristext";
             this.kurtaristext.ReadOnly = true;
             this.kurtaristext.Size = new System.Drawing.Size(41, 27);
@@ -561,7 +563,7 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(448, 277);
+            this.label23.Location = new System.Drawing.Point(450, 291);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(70, 21);
             this.label23.TabIndex = 220;
@@ -569,11 +571,11 @@
             // 
             // topkaybıtext
             // 
-            this.topkaybıtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.topkaybıtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.topkaybıtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.topkaybıtext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.topkaybıtext.ForeColor = System.Drawing.SystemColors.Window;
-            this.topkaybıtext.Location = new System.Drawing.Point(536, 250);
+            this.topkaybıtext.Location = new System.Drawing.Point(629, 260);
             this.topkaybıtext.Name = "topkaybıtext";
             this.topkaybıtext.ReadOnly = true;
             this.topkaybıtext.Size = new System.Drawing.Size(41, 27);
@@ -584,7 +586,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(448, 249);
+            this.label22.Location = new System.Drawing.Point(450, 262);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(89, 21);
             this.label22.TabIndex = 218;
@@ -592,11 +594,11 @@
             // 
             // uzeklastırmatext
             // 
-            this.uzeklastırmatext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.uzeklastırmatext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.uzeklastırmatext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.uzeklastırmatext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.uzeklastırmatext.ForeColor = System.Drawing.SystemColors.Window;
-            this.uzeklastırmatext.Location = new System.Drawing.Point(564, 220);
+            this.uzeklastırmatext.Location = new System.Drawing.Point(629, 229);
             this.uzeklastırmatext.Name = "uzeklastırmatext";
             this.uzeklastırmatext.ReadOnly = true;
             this.uzeklastırmatext.Size = new System.Drawing.Size(41, 27);
@@ -607,7 +609,7 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(448, 219);
+            this.label21.Location = new System.Drawing.Point(450, 228);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(112, 21);
             this.label21.TabIndex = 216;
@@ -615,11 +617,11 @@
             // 
             // kesilenpastext
             // 
-            this.kesilenpastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.kesilenpastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.kesilenpastext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kesilenpastext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kesilenpastext.ForeColor = System.Drawing.SystemColors.Window;
-            this.kesilenpastext.Location = new System.Drawing.Point(564, 193);
+            this.kesilenpastext.Location = new System.Drawing.Point(629, 199);
             this.kesilenpastext.Name = "kesilenpastext";
             this.kesilenpastext.ReadOnly = true;
             this.kesilenpastext.Size = new System.Drawing.Size(41, 27);
@@ -630,7 +632,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(448, 193);
+            this.label20.Location = new System.Drawing.Point(450, 197);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(114, 21);
             this.label20.TabIndex = 214;
@@ -638,11 +640,11 @@
             // 
             // ortatext
             // 
-            this.ortatext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.ortatext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.ortatext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ortatext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ortatext.ForeColor = System.Drawing.SystemColors.Window;
-            this.ortatext.Location = new System.Drawing.Point(357, 427);
+            this.ortatext.Location = new System.Drawing.Point(401, 427);
             this.ortatext.Name = "ortatext";
             this.ortatext.ReadOnly = true;
             this.ortatext.Size = new System.Drawing.Size(41, 27);
@@ -661,11 +663,11 @@
             // 
             // bloktext
             // 
-            this.bloktext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.bloktext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.bloktext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.bloktext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bloktext.ForeColor = System.Drawing.SystemColors.Window;
-            this.bloktext.Location = new System.Drawing.Point(498, 169);
+            this.bloktext.Location = new System.Drawing.Point(629, 169);
             this.bloktext.Name = "bloktext";
             this.bloktext.ReadOnly = true;
             this.bloktext.Size = new System.Drawing.Size(41, 27);
@@ -676,7 +678,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(448, 168);
+            this.label18.Location = new System.Drawing.Point(450, 168);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(44, 21);
             this.label18.TabIndex = 210;
@@ -684,11 +686,11 @@
             // 
             // mudahaletext
             // 
-            this.mudahaletext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.mudahaletext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.mudahaletext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mudahaletext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.mudahaletext.ForeColor = System.Drawing.SystemColors.Window;
-            this.mudahaletext.Location = new System.Drawing.Point(550, 140);
+            this.mudahaletext.Location = new System.Drawing.Point(629, 139);
             this.mudahaletext.Name = "mudahaletext";
             this.mudahaletext.ReadOnly = true;
             this.mudahaletext.Size = new System.Drawing.Size(41, 27);
@@ -707,11 +709,11 @@
             // 
             // faultext
             // 
-            this.faultext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.faultext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.faultext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.faultext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.faultext.ForeColor = System.Drawing.SystemColors.Window;
-            this.faultext.Location = new System.Drawing.Point(564, 108);
+            this.faultext.Location = new System.Drawing.Point(629, 105);
             this.faultext.Name = "faultext";
             this.faultext.ReadOnly = true;
             this.faultext.Size = new System.Drawing.Size(41, 27);
@@ -730,11 +732,11 @@
             // 
             // yenengoltext
             // 
-            this.yenengoltext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.yenengoltext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.yenengoltext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.yenengoltext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.yenengoltext.ForeColor = System.Drawing.SystemColors.Window;
-            this.yenengoltext.Location = new System.Drawing.Point(550, 335);
+            this.yenengoltext.Location = new System.Drawing.Point(629, 359);
             this.yenengoltext.Name = "yenengoltext";
             this.yenengoltext.ReadOnly = true;
             this.yenengoltext.Size = new System.Drawing.Size(41, 27);
@@ -745,7 +747,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(448, 334);
+            this.label15.Location = new System.Drawing.Point(450, 365);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(96, 21);
             this.label15.TabIndex = 204;
@@ -753,11 +755,11 @@
             // 
             // suttext
             // 
-            this.suttext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.suttext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.suttext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.suttext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.suttext.ForeColor = System.Drawing.SystemColors.Window;
-            this.suttext.Location = new System.Drawing.Point(357, 396);
+            this.suttext.Location = new System.Drawing.Point(401, 396);
             this.suttext.Name = "suttext";
             this.suttext.ReadOnly = true;
             this.suttext.Size = new System.Drawing.Size(41, 27);
@@ -776,7 +778,7 @@
             // 
             // tkaptanlıgıtext
             // 
-            this.tkaptanlıgıtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.tkaptanlıgıtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.tkaptanlıgıtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tkaptanlıgıtext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tkaptanlıgıtext.ForeColor = System.Drawing.SystemColors.Window;
@@ -799,7 +801,7 @@
             // 
             // dogumgunutext
             // 
-            this.dogumgunutext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.dogumgunutext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.dogumgunutext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.dogumgunutext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dogumgunutext.ForeColor = System.Drawing.SystemColors.Window;
@@ -822,11 +824,11 @@
             // 
             // yedekmaclartext
             // 
-            this.yedekmaclartext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.yedekmaclartext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.yedekmaclartext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.yedekmaclartext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.yedekmaclartext.ForeColor = System.Drawing.SystemColors.Window;
-            this.yedekmaclartext.Location = new System.Drawing.Point(386, 330);
+            this.yedekmaclartext.Location = new System.Drawing.Point(401, 330);
             this.yedekmaclartext.Name = "yedekmaclartext";
             this.yedekmaclartext.ReadOnly = true;
             this.yedekmaclartext.Size = new System.Drawing.Size(41, 27);
@@ -845,11 +847,11 @@
             // 
             // oyuncıkıstext
             // 
-            this.oyuncıkıstext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.oyuncıkıstext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.oyuncıkıstext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.oyuncıkıstext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.oyuncıkıstext.ForeColor = System.Drawing.SystemColors.Window;
-            this.oyuncıkıstext.Location = new System.Drawing.Point(386, 294);
+            this.oyuncıkıstext.Location = new System.Drawing.Point(401, 294);
             this.oyuncıkıstext.Name = "oyuncıkıstext";
             this.oyuncıkıstext.ReadOnly = true;
             this.oyuncıkıstext.Size = new System.Drawing.Size(41, 27);
@@ -868,11 +870,11 @@
             // 
             // sakatliktext
             // 
-            this.sakatliktext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.sakatliktext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.sakatliktext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.sakatliktext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sakatliktext.ForeColor = System.Drawing.SystemColors.Window;
-            this.sakatliktext.Location = new System.Drawing.Point(386, 259);
+            this.sakatliktext.Location = new System.Drawing.Point(401, 259);
             this.sakatliktext.Name = "sakatliktext";
             this.sakatliktext.ReadOnly = true;
             this.sakatliktext.Size = new System.Drawing.Size(41, 27);
@@ -891,11 +893,11 @@
             // 
             // kirmizikarttext
             // 
-            this.kirmizikarttext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.kirmizikarttext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.kirmizikarttext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kirmizikarttext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kirmizikarttext.ForeColor = System.Drawing.SystemColors.Window;
-            this.kirmizikarttext.Location = new System.Drawing.Point(386, 226);
+            this.kirmizikarttext.Location = new System.Drawing.Point(401, 226);
             this.kirmizikarttext.Name = "kirmizikarttext";
             this.kirmizikarttext.ReadOnly = true;
             this.kirmizikarttext.Size = new System.Drawing.Size(41, 27);
@@ -903,11 +905,11 @@
             // 
             // sarikarttext
             // 
-            this.sarikarttext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.sarikarttext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.sarikarttext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.sarikarttext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sarikarttext.ForeColor = System.Drawing.SystemColors.Window;
-            this.sarikarttext.Location = new System.Drawing.Point(386, 197);
+            this.sarikarttext.Location = new System.Drawing.Point(401, 197);
             this.sarikarttext.Name = "sarikarttext";
             this.sarikarttext.ReadOnly = true;
             this.sarikarttext.Size = new System.Drawing.Size(41, 27);
@@ -937,11 +939,11 @@
             // 
             // asisttext
             // 
-            this.asisttext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.asisttext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.asisttext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.asisttext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.asisttext.ForeColor = System.Drawing.SystemColors.Window;
-            this.asisttext.Location = new System.Drawing.Point(386, 168);
+            this.asisttext.Location = new System.Drawing.Point(401, 168);
             this.asisttext.Name = "asisttext";
             this.asisttext.ReadOnly = true;
             this.asisttext.Size = new System.Drawing.Size(41, 27);
@@ -960,11 +962,11 @@
             // 
             // goltext
             // 
-            this.goltext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.goltext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.goltext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.goltext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.goltext.ForeColor = System.Drawing.SystemColors.Window;
-            this.goltext.Location = new System.Drawing.Point(386, 139);
+            this.goltext.Location = new System.Drawing.Point(401, 139);
             this.goltext.Name = "goltext";
             this.goltext.ReadOnly = true;
             this.goltext.Size = new System.Drawing.Size(41, 27);
@@ -994,11 +996,11 @@
             // 
             // macsayısıtext
             // 
-            this.macsayısıtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.macsayısıtext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.macsayısıtext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.macsayısıtext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.macsayısıtext.ForeColor = System.Drawing.SystemColors.Window;
-            this.macsayısıtext.Location = new System.Drawing.Point(386, 109);
+            this.macsayısıtext.Location = new System.Drawing.Point(401, 109);
             this.macsayısıtext.Name = "macsayısıtext";
             this.macsayısıtext.ReadOnly = true;
             this.macsayısıtext.Size = new System.Drawing.Size(41, 27);
@@ -1039,7 +1041,7 @@
             // 
             // yastext
             // 
-            this.yastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.yastext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.yastext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.yastext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.yastext.ForeColor = System.Drawing.Color.White;
@@ -1051,7 +1053,7 @@
             // 
             // comboBox4
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.comboBox4.Enabled = false;
             this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -1064,7 +1066,7 @@
             // 
             // comboBox5
             // 
-            this.comboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
+            this.comboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.comboBox5.Enabled = false;
             this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -1077,6 +1079,7 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(9)))), ((int)(((byte)(48)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.button2.ForeColor = System.Drawing.Color.White;
@@ -1085,7 +1088,7 @@
             this.button2.Size = new System.Drawing.Size(161, 34);
             this.button2.TabIndex = 262;
             this.button2.Text = "Kişisel veri güncelle";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label41

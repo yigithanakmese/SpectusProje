@@ -180,5 +180,10 @@ namespace WindowsFormsApp3
             con.Close();
             label41.Text = "Başarı ile güncellendi..";
         }
+
+        private void alinanpenaltitext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

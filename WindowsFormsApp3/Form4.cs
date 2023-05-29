@@ -65,5 +65,15 @@ namespace WindowsFormsApp3
         {
             Application.Exit();
         }
+
+        private void textBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            textBox1.SelectAll() ;
+        }
+
+        private void textBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            textBox1.SelectAll();
+        }
     }
 }

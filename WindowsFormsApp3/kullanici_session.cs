@@ -14,7 +14,8 @@ namespace WindowsFormsApp3
             private static k_session instance;
 
             public int k_id { get; set; }
-            //public int t_id { get; set; }
+            
+        //public int t_id { get; set; }
             public int g_id { get; set; }
 
 
