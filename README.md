@@ -4,4 +4,3 @@ Program futbolcuların istatistiklerinden faydalanır, bu istatistikleri hesapla
 İstatistikler günceldir, bir API'dan Excel'e aktarılıp düzenli olarak güncellenir ve oradan SQL Server'a import edilir.
 SQL Server'daki bilgiler normalizasyona uygun şekilde tutulur ve form üstündeki gridlerde görüntülenir.
 
---Program henüz tamamlanmamıştır--
